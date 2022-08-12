@@ -64,7 +64,8 @@ vim.o.shiftwidth = 4
 vim.o.softtabstop = 4
 vim.o.wrap = false
 vim.o.linebreak = true
-
+vim.o.hlsearch = true
 
 vim.g.python_host_prog = "/usr/bin/python"
 vim.g.python3_host_prog = "/usr/bin/python3"
+

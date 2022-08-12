@@ -4,10 +4,14 @@ capabilities = require('cmp_nvim_lsp').update_capabilities(capabilities)
 
 local lspconfig = require('lspconfig')
 
--- Enable some language servers with the additional completion capabilities offered by nvim-cmp
+-- 自动安装代码补全服务器
 require("nvim-lsp-installer").setup {}
 
-local servers = { 'clangd', 'pyright', 'marksman'}
+-- 自动格式化
+require("null-ls").setup {}
+
+-- Enable some language servers with the additional completion capabilities offered by nvim-cmp
+local servers = { 'clangd', 'pyright', 'marksman' }
 for _, lsp in ipairs(servers) do
   lspconfig[lsp].setup {
     -- on_attach = my_custom_on_attach,

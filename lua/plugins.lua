@@ -52,6 +52,7 @@ return require('packer').startup(function(use)
   -- lsp自动补全
   use({ "williamboman/nvim-lsp-installer", commit = "e9f13d7acaa60aff91c58b923002228668c8c9e6" }) -- simple to use language server installer
   use({ "neovim/nvim-lspconfig", commit = "148c99bd09b44cf3605151a06869f6b4d4c24455" }) -- enable LSP
+  use({ "nvim-lua/plenary.nvim", commit = "968a4b9afec0c633bc369662e78f8c5db0eba249" }) -- Useful lua functions used by lots of plugins
   use 'hrsh7th/nvim-cmp' -- Autocompletion plugin
   use 'hrsh7th/cmp-nvim-lsp' -- LSP source for nvim-cmp
   use 'saadparwaiz1/cmp_luasnip' -- Snippets source for nvim-cmp
@@ -69,5 +70,8 @@ return require('packer').startup(function(use)
   
   -- wakatime
   use 'wakatime/vim-wakatime'
+  
+  -- 自动格式化
+  use 'mhartington/formatter.nvim'
 
 end)

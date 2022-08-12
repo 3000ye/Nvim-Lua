@@ -17,3 +17,11 @@ require("plugin-config/nord")
 
 -- rainbow 彩虹括号
 require("plugin-config/rainbow")
+
+-- 自动化操作
+require("autocmd")
+
+-- 自动格式化
+require("plugin-config/formatter")
+
+
