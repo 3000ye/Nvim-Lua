@@ -13,8 +13,8 @@ vim.cmd[[
         autocmd InsertLeave * write
 
         " 创建文件时自动加载模板
-        autocmd BufNewFile *py 0r /home/ye/.config/nvim/lua/template/py.tlp
-        autocmd BufNewFile *cpp 0r /home/ye/.config/nvim/lua/template/cpp.tlp
+        autocmd BufNewFile *py 0r  ~/.config/nvim/lua/template/py.tlp
+        autocmd BufNewFile *cpp 0r ~/.config/nvim/lua/template/cpp.tlp
 
     augroup end
     
