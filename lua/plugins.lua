@@ -70,11 +70,14 @@ return require('packer').startup(function(use)
 
   -- 自动匹配括号
   use({ "windwp/nvim-autopairs", commit = "fa6876f832ea1b71801c4e481d8feca9a36215ec" }) -- Autopairs, integrates with both cmp and treesitter
-  
+
   -- wakatime
   use 'wakatime/vim-wakatime'
-  
+
   -- 自动格式化
   use 'mhartington/formatter.nvim'
+
+  -- Markdown实时预览
+  use 'JamshedVesuna/vim-markdown-preview'
 
 end)

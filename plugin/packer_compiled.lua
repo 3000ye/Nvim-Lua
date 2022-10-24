@@ -154,6 +154,11 @@ _G.packer_plugins = {
     path = "/home/ye/.local/share/nvim/site/pack/packer/start/rainbow",
     url = "git@github.com:luochen1990/rainbow"
   },
+  ["vim-markdown-preview"] = {
+    loaded = true,
+    path = "/home/ye/.local/share/nvim/site/pack/packer/start/vim-markdown-preview",
+    url = "git@github.com:JamshedVesuna/vim-markdown-preview"
+  },
   ["vim-wakatime"] = {
     loaded = true,
     path = "/home/ye/.local/share/nvim/site/pack/packer/start/vim-wakatime",
