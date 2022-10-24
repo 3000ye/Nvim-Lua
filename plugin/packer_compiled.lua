@@ -109,6 +109,11 @@ _G.packer_plugins = {
     path = "/home/ye/.local/share/nvim/site/pack/packer/start/formatter.nvim",
     url = "git@github.com:mhartington/formatter.nvim"
   },
+  ["markdown-preview.nvim"] = {
+    loaded = true,
+    path = "/home/ye/.local/share/nvim/site/pack/packer/start/markdown-preview.nvim",
+    url = "git@github.com:iamcco/markdown-preview.nvim"
+  },
   ["nord.nvim"] = {
     loaded = true,
     path = "/home/ye/.local/share/nvim/site/pack/packer/start/nord.nvim",
@@ -153,11 +158,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/ye/.local/share/nvim/site/pack/packer/start/rainbow",
     url = "git@github.com:luochen1990/rainbow"
-  },
-  ["vim-markdown-preview"] = {
-    loaded = true,
-    path = "/home/ye/.local/share/nvim/site/pack/packer/start/vim-markdown-preview",
-    url = "git@github.com:JamshedVesuna/vim-markdown-preview"
   },
   ["vim-wakatime"] = {
     loaded = true,

@@ -78,6 +78,7 @@ return require('packer').startup(function(use)
   use 'mhartington/formatter.nvim'
 
   -- Markdown实时预览
-  use 'JamshedVesuna/vim-markdown-preview'
+  -- install without yarn or npm
+  use 'iamcco/markdown-preview.nvim'
 
 end)
