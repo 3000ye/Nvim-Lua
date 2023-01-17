@@ -34,3 +34,5 @@ require("autocmd")
 -- 自动格式化
 require("plugin-config/formatter")
 
+-- 彩虹缩进
+require("plugin-config/indent")

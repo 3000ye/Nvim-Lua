@@ -78,7 +78,9 @@ return require('packer').startup(function(use)
   use 'mhartington/formatter.nvim'
 
   -- Markdown实时预览
-  -- install without yarn or npm
   use 'iamcco/markdown-preview.nvim'
+
+  -- 彩虹缩进
+  use "lukas-reineke/indent-blankline.nvim"
 
 end)
