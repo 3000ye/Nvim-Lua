@@ -164,6 +164,11 @@ _G.packer_plugins = {
     path = "/home/castor/.local/share/nvim/site/pack/packer/start/rainbow",
     url = "git@github.com:luochen1990/rainbow"
   },
+  ["stay-centered.nvim"] = {
+    loaded = true,
+    path = "/home/castor/.local/share/nvim/site/pack/packer/start/stay-centered.nvim",
+    url = "git@github.com:arnamak/stay-centered.nvim"
+  },
   ["vim-wakatime"] = {
     loaded = true,
     path = "/home/castor/.local/share/nvim/site/pack/packer/start/vim-wakatime",

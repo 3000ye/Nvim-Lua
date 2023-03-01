@@ -36,3 +36,6 @@ require("plugin-config/formatter")
 
 -- 彩虹缩进
 require("plugin-config/indent")
+
+-- 光标居中
+require("plugin-config/stay-centered")

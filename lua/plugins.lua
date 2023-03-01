@@ -82,5 +82,8 @@ return require('packer').startup(function(use)
 
   -- 彩虹缩进
   use "lukas-reineke/indent-blankline.nvim"
+  
+  -- 保持指针居中
+  use "arnamak/stay-centered.nvim"
 
 end)
