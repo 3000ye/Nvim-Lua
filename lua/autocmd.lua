@@ -8,7 +8,7 @@ vim.cmd[[
         " 创建文件自动添加可执行权限
         autocmd BufWritePost * silent !chmod +x <afile>
         " 打开文件自动定位到最后一行
-        autocmd BufEnter * normal G
+        autocmd BufEnter *md normal G
         " 退出插入模式自动保存
         autocmd InsertLeave * write
 
